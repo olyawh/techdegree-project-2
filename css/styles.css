@@ -1,0 +1,271 @@
+/********GENERAL*********/
+
+a {
+    text-decoration: none;
+}
+
+.portfolio {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: #6497b1;
+}
+/*********HEADING********/
+nav {
+    width: 100%;
+}
+
+.nav {
+    list-style: none;
+}
+
+.profile-image {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+
+.main-text {
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2em;
+    color:#005b96;
+}
+
+
+
+.nav a {
+    font-size: 1.5em;
+
+}
+
+.nav a.selected, .nav a:hover {
+    color: #f5f5f5;
+}
+
+
+.nav li {
+    border-radius: 6px;
+    background: grey;
+    color: black;
+    padding: 5px 10px;
+    margin: 5px;
+    display: block;
+    text-align: center;
+    margin-left: -35px;
+}
+
+h1 {
+        color: #005b96;
+       font-size: 2em;
+       font-family: 'Comfortaa', cursive;
+       margin: 15px 0;
+    }
+
+
+
+/************PAGE PORTFOLIO*******/
+
+.wrapper {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #bdc3c7;
+}
+ h2 {
+     text-align: center;
+     margin: 0;
+     padding: 5%;
+ }
+
+ h1 {
+     text-align: center;
+ }
+
+ .wrapper p {
+     margin: 0;
+     padding: 5%;
+     font-size: 0.7em;
+     color: #bdc3c7;
+
+ }
+/********SKILLS******/
+
+ .skills-list {
+     list-style: none;
+     text-align: center;
+   
+
+ }
+
+ .skills-list li {
+     display: inline;
+ }
+
+.laptop-image {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/***************FOOTER******************/
+
+p {
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+    list-style: none;
+    display: none;
+}
+
+footer h1 {
+    float:left;
+    font-size: 1.1em;
+    font-family: 'Assistant', sans-serif;
+    color:#6497b1;
+}
+ 
+ footer h3 {
+    float: right;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.1em;
+}
+
+hr {
+    color: darkblue;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+.backtotop{
+    list-style: none;
+}
+
+
+/****************MEDIA QUERIES****************/
+
+
+@media screen and (min-width: 768px) {
+
+    .wrapper {
+        float: left;
+        width: 45%;
+        margin-left: 3px;
+    }
+    
+    /* Clear floats after the columns */
+    .portfolio:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .name, 
+    .main-nav li {
+        display: inline-block;
+    }
+
+    .nav a {
+        padding: 10px 15px;
+    }
+    
+    .name {
+        width: 240px;
+        margin-right: 50px;
+
+    }
+    
+    .main-nav {
+        text-align: center;
+    }
+
+  .profile-image,
+  .main-text {
+      display: inline-block;
+      width: 50%;
+      margin-right: -3px;
+      vertical-align: baseline;
+  }
+  
+
+  .main-nav {
+      background: #bdc3c7;
+  }
+
+.backtotop {
+    display: none;
+}
+
+#footer {
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+footer li {
+    float: right;
+    margin-right: 10px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .name,
+    .main-nav li,
+   .main-nav {
+    display: inline-block;
+}
+.name {
+    width: 240px;
+    margin-right: 50px;
+    float: left;
+}
+
+.nav a {
+    padding: 10px 15px;
+}
+
+.nav {
+    float: right;
+
+}
+
+.wrapper {
+    float: left;
+    width: 33%;
+    margin-left: 3px;
+}
+
+   /* Clear floats after the columns */
+   .portfolio:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+}
